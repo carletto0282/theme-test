@@ -4,3 +4,9 @@ Author: carletto
 Description: ***
 template: twentynineteen
 */
+
+.btn-primary {
+    color: yellow;
+    background-color: darkslategray;
+    border-color: darkslategray;
+}
