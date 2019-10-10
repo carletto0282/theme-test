@@ -1,0 +1,8 @@
+$theme-colors: (
+    "mike-dark": darkslategray,
+    "mike-light": yellow
+);
+
+$enable-gradients: true;
+
+@import "../bootstrap/scss/bootstrap";
