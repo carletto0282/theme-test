@@ -13,5 +13,5 @@
         wp_enqueue_script( 'bootstrap-script', get_stylesheet_directory_uri().'/bootstrap/js/bootstrap.min.js', array( 'jquery' ),null ,true );
 
         // Enqueue Custom JS
-        wp_enqueue_script( 'theme-script', get_stylesheet_directory_uri().'/js/theme.js', array( 'jquery' ),null ,true );
+        wp_enqueue_script( 'theme-script', get_stylesheet_directory_uri().'/js/theme.js', array( 'jquery' ), null ,true );
     }
