@@ -4,7 +4,10 @@
 
     function enqueue_custom_things() {
         // Enqueue bootstrap styles
-        wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/bootstrap/css/bootstrap.min.css' );
+        // wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/bootstrap/css/bootstrap.min.css' );
+
+        // Enqueue bootstrap styles
+        wp_enqueue_style( 'bootstrap', get_stylesheet_directory_uri().'/custom.css' );
 
         // Enqueue parent styles
         wp_enqueue_style( 'parent-style', get_template_directory_uri().'/style.css' );
